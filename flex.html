@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /* alineamiento horizontal justify-content se coloca en el contenedor */
+        /* jutify-content : flex-start center flex-end space-around space-between */
+
+        /* alineamiento vertical align-items se coloca en contenedor */
+        /* align-items stretch flex-start flex-end center baseline */
+
+        /* para centrar completamente en el contenedor justify-content:center y align-items:center:  flex-direction:column*/
+
+        /* align-self alineacion de los hijos del contenedor */
+
+
+        .flexbox{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 1px solid red;
+            flex-shrink: 0;
+            /* margin: 10px */
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="flexbox">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>
